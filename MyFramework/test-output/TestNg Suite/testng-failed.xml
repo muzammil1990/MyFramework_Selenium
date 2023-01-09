@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNg Suite]">
+  <test name="TestingPackage_testngtutorials(failed)">
+    <classes>
+      <class name="com.volvo.testngtutorials.Testng_Ex5">
+        <methods>
+          <include name="registerPageTest"/>
+          <include name="SearchPageTest"/>
+          <include name="loginTest"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- com.volvo.testngtutorials.Testng_Ex5 -->
+      <class name="com.volvo.testngtutorials.Testng_Ex4_Annotations">
+        <methods>
+          <include name="test4"/>
+          <include name="test1"/>
+          <include name="test7"/>
+          <include name="test9"/>
+          <include name="test6"/>
+          <include name="test3"/>
+          <include name="test8"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.volvo.testngtutorials.Testng_Ex4_Annotations -->
+    </classes>
+  </test> <!-- TestingPackage_testngtutorials(failed) -->
+</suite> <!-- Failed suite [TestNg Suite] -->

@@ -1,0 +1,14 @@
+something or some element id= 1234 got stale
+some webelement which was present earlier is not present anymore after the page refresh.
+
+In dom that element is still might be present but certain specific section of the webpage
+which is a AJAX component got refreshed and is not present anymore.
+
+So thats why we should not refresh page or else there is a high chance that our script might
+fail.
+
+scneario: Lets say usernmae field we have identified using
+		 driver.findElement(By.name("username"));
+		 
+		 but if we intentionally refresh the page and do Debug a we may get staleElementReferenceException
+		because that webelement id= 4562 might change. 

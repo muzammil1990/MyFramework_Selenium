@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Suite">
+  <test name="TestingPackage_testngtutorials">
+    <classes>
+      <class name="com.volvo.testngtutorials.Testng_Ex1"/>
+      <class name="com.volvo.testngtutorials.Testng_Ex4_Annotations"/>
+      <class name="com.volvo.testngtutorials.Testng_Ex2"/>
+      <class name="com.volvo.testngtutorials.Testng_Ex3"/>
+      <class name="com.volvo.testngtutorials.Testng_Ex7_Exceptions"/>
+      <class name="com.volvo.testngtutorials.Testng_Ex5"/>
+      <class name="com.volvo.testngtutorials.Testng_Ex6_InvocationCount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

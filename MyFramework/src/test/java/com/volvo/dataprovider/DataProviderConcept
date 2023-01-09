@@ -1,0 +1,29 @@
+Data Driven Framework with TestNG= @DataProvider annotation
+
+Scenario: Application-page- different fields- fill all these fields with different test data
+
+
+have one Test Case= Login Test (Username, password)
+
+data 1
+data 2 
+data 3
+data 4
+======================================================
+
+@Test(dataprovider="getTestData")// provider name(method name)
+LoginTest_TC
+
+
+so how our pg will know where exaclty is our data, so for that we have annotation
+@DataProvider in TestNG
+
+so who is my data provider? my data provider is getTestData()
+
+@Dataprovider
+getTestData(){
+ data 1  // we will get these data from the excel file and use this method in dataprovider
+ data 2 
+ data 3
+ data 4
+}
